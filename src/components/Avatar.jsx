@@ -104,7 +104,7 @@ const corresponding = {
   X: "viseme_PP",
 };
 
-let setupMode = false;
+let setupMode = true;
 
 export function Avatar(props) {
   const { nodes, materials, scene } = useGLTF(
